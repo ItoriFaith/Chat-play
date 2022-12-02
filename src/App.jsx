@@ -7,7 +7,7 @@ function App() {
   
 const chatComponent = Chats.map((chat)=>{
   return <Card 
- {...chat}
+   chat={chat}
   />
 })
 
